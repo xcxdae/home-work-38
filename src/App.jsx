@@ -20,15 +20,11 @@ function App() {
         onChange={handleInputChange}
       />
 
-      <br />
-
       <Input
         placeholder="Введіть пароль"
         type="password"
         onChange={handleInputChange}
       />
-
-      <br />
 
       <Button text="Натисни мене" type="button" onClick={handleClick} />
     </div>
